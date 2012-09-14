@@ -9,5 +9,8 @@ Standards-Version: 3.9.2
 Package: ros-groovy-perception-pcl
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-common-msgs,libeigen3-dev,ros-groovy-geometry,ros-groovy-pcl,ros-groovy-roscpp-core
-Description: PCL (Point Cloud Library) ROS interface package. PCL-ROS is the preferred bridge for 3D applications involving n-D Point Clouds and 3D geometry processing in ROS.
+Description: PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred bridge for 3D applications involving n-D Point Clouds and 3D geometry processing in ROS.
+ .
+ This stack contains the packages:
+ * pcl_ros: PCL (Point Cloud Library) ROS interface package. PCL-ROS is the preferred bridge for 3D applications involving n-D Point Clouds and 3D geometry processing in ROS.
 
